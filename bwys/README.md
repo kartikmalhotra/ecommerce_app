@@ -2,6 +2,8 @@
 
 An Ecommerce App made with Flutter with a Tiktok like feature to add the ability for the user to buy the clothes that people are wearing in the video.
 
+![Screenshot]()
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
