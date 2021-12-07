@@ -20,17 +20,14 @@ margin:auto;
 </style> 
    </head> 
    
-<div id="mainDiv"> 
-    <div id="divOne" class="boxes"> 
-       <img src="Screenshot_1638866651.png" width="380" height="650" title="Ecommerce app" alt="Ecommerce app"/>
-    </div> 
-    <div id="divTwo" class="boxes"> 
-       <img src="Screenshot_1638866657.png" width="380" height="650" title="Ecommerce app" alt="Ecommerce app"/>
-    </div> 
-</div> 
-
+<img src="Screenshot_1638866657.png" width="380" height="650" title="Ecommerce app" alt="Ecommerce app"/>
+$~~$
+<img src="Screenshot_1638866651.png" width="380" height="650" title="Ecommerce app" alt="Ecommerce app"/>
+$~~$
 <img src="Screenshot_1638866666.png" width="380" height="650" title="Show video" alt="Ecommerce app"/>
+$~~$
 <img src="Screenshot_1638866675.png" width="380" height="650" title="Show video" alt="Ecommerce app"/>
+$~~$
 <img src="Screenshot_1638866710.png" width="380" height="650" title="Show video" alt="Ecommerce app"/>
 
 ## Getting Started
