@@ -2,8 +2,33 @@
 
 An Ecommerce App made with Flutter with a Tiktok like feature to add the ability for the user to buy the clothes that people are wearing in the video.
 
-<img src="Screenshot_1638866651.png" width="380" height="650" title="Ecommerce app" alt="Ecommerce app"/>
-<img src="Screenshot_1638866657.png" width="380" height="650" title="Ecommerce app" alt="Ecommerce app"/>
+<head> 
+	<title> 
+	</title> 
+	<style> 
+	.boxes{ 
+	width:50%; 
+	float:left; 
+	} 
+	#mainDiv{ 
+		width:50%; 
+margin:auto; 
+	} 
+	img{ 
+		max-width:100%; 
+	} 
+</style> 
+   </head> 
+   
+<div id="mainDiv"> 
+    <div id="divOne" class="boxes"> 
+       <img src="Screenshot_1638866651.png" width="380" height="650" title="Ecommerce app" alt="Ecommerce app"/>
+    </div> 
+    <div id="divTwo" class="boxes"> 
+       <img src="Screenshot_1638866657.png" width="380" height="650" title="Ecommerce app" alt="Ecommerce app"/>
+    </div> 
+</div> 
+
 <img src="Screenshot_1638866666.png" width="380" height="650" title="Show video" alt="Ecommerce app"/>
 <img src="Screenshot_1638866675.png" width="380" height="650" title="Show video" alt="Ecommerce app"/>
 <img src="Screenshot_1638866710.png" width="380" height="650" title="Show video" alt="Ecommerce app"/>
