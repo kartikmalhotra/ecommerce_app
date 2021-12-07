@@ -2,7 +2,7 @@
 
 An Ecommerce App made with Flutter with a Tiktok like feature to add the ability for the user to buy the clothes that people are wearing in the video.
 
-![Screenshot](Screenshot_1638866651.png)
+<img src="Screenshot_1638866651.png" alt="My cool logo"/>
 
 ## Getting Started
 
