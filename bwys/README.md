@@ -13,7 +13,7 @@ BWYS is an Ecommerce App made using Flutter the basic idea behind creating this 
   </tr>
   <tr>
     <td><img src="Screenshot_1638866657.png" width="270" height="480" title="Ecommerce app" alt="Ecommerce app"/></td>
-    <td><img src="Screenshot_1638866651.png" width="270" height="480" title="Ecommerce app" alt="Ecommerce app"/></td>
+    <td><img src="Screenshot_1638895462.png" width="270" height="480" title="Ecommerce app" alt="Ecommerce app"/></td>
     <td><img src="Screenshot_1638866666.png" width="270" height="480" title="Show video" alt="Ecommerce app"/> </td>
   </tr>
   <tr>
