@@ -1,6 +1,6 @@
-# bwys
+# BWYS
 
-A new Flutter project.
+An Ecommerce App made with Flutter with a Tiktok like feature to add the ability for the user to buy the clothes that people are wearing in the video.
 
 ## Getting Started
 
