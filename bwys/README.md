@@ -15,7 +15,11 @@ An Ecommerce App made with Flutter with a Tiktok like feature to add the ability
     <td><img src="Screenshot_1638866651.png" width="270" height="480" title="Ecommerce app" alt="Ecommerce app"/></td>
     <td><img src="Screenshot_1638866666.png" width="270" height="480" title="Show video" alt="Ecommerce app"/> </td>
   </tr>
-   <tr>
+  <tr>
+     <td>Product Detail</td>
+     <td>Shopping Cart</td>
+  </tr>
+  <tr>
     <td><img src="Screenshot_1638866675.png" width="270" height="480" title="Ecommerce app" alt="Ecommerce app"/></td>
     <td><img src="Screenshot_1638866710.png" width="270" height="480" title="Ecommerce app" alt="Ecommerce app"/></td>
   </tr>
