@@ -1,7 +1,7 @@
 
 # BWYS
 
-BWYS is an Ecommerce App made using Flutter the basic idea behind creating this app is to create an app where users can post videos and the users can buy that if they are interested in that product 
+BWYS is an Ecommerce App made using Flutter the basic idea behind creating this app is to create an app where users can post videos with the product and users can buy that product if they are interested
 
 ## Screenshots 
 
