@@ -1,8 +1,11 @@
 import 'dart:async';
 
+import 'package:bwys/bwys_app.dart';
+import 'package:bwys/config/application.dart';
 import 'package:bwys/config/screen_config.dart';
-import 'package:bwys/screens/signin/screens/signin.dart';
+import 'package:bwys/screens/login/screens/signin.dart';
 import 'package:bwys/utils/ui/ui_utils.dart';
+import 'package:bwys/widget/widget.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -18,38 +21,27 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
 
     /// Apply a Timer for 3 seconds for Splash Screen
-    Timer(
-      Duration(seconds: 3),
-      () => Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(builder: (context) => SignInScreen()),
-      ),
-    );
+    _displaySplashScreen();
+  }
+
+  void _displaySplashScreen() {
+    Timer(Duration(seconds: 2), () {
+      if (BWYSUser.isUserLoggedIn) {
+        Navigator.pushReplacement(
+            context, MaterialPageRoute(builder: (context) => AppScreen()));
+      } else {
+        Navigator.pushReplacement(
+            context, MaterialPageRoute(builder: (context) => SignInScreen()));
+      }
+    });
   }
 
   @override
   Widget build(BuildContext context) {
+    SetAppScreenConfiguration.init(context);
     return Container(
       height: MediaQuery.of(context).size.height,
       width: MediaQuery.of(context).size.width,
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment.topRight,
-          end: Alignment.bottomLeft,
-          stops: [
-            0.1,
-            0.4,
-            0.6,
-            0.9,
-          ],
-          colors: [
-            Colors.white,
-            Colors.cyan,
-            Colors.grey,
-            Colors.black,
-          ],
-        ),
-      ),
       child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -69,7 +61,11 @@ class _SplashScreenState extends State<SplashScreen> {
                   .textTheme
                   .bodyText1!
                   .copyWith(color: Colors.white),
-            )
+            ),
+            AppSizedBoxSpacing(heightSpacing: AppSpacing.xxxxl),
+            AppCircularProgressLoader(
+              strokeColor: Colors.white,
+            ),
           ],
         ),
       ),

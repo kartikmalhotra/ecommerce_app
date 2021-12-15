@@ -52,8 +52,7 @@ class ProductList extends StatelessWidget {
             ],
           ),
           AppSizedBoxSpacing(heightSpacing: AppSpacing.xss),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          Wrap(
             children: [
               AppText(
                 "₹ ${product.price}",

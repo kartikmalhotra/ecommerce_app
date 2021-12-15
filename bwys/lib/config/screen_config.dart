@@ -35,8 +35,6 @@ abstract class SetAppScreenConfiguration {
     context = ctx;
     AppScreenConfig.init(context);
     AppDevice.init(AppScreenConfig.getScreenWidth()!);
-
-    /// TODO: Crashlytics
     // Application.crashlyticsService.logCustomKeys(
     //   CrashlyticsCustomLogKeys.deviceSize,
     //   "${AppScreenConfig.screenWidth}x${AppScreenConfig.screenHeight}",

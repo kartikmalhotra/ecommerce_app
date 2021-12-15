@@ -1,12 +1,12 @@
+import 'package:bwys/bwys_app.dart';
 import 'package:bwys/config/routes/routes_const.dart';
-import 'package:bwys/main.dart';
 import 'package:bwys/screens/cart/screens/cart_screen.dart';
 import 'package:bwys/screens/category/screens/category_screen.dart';
+import 'package:bwys/screens/login/screens/signin.dart';
+import 'package:bwys/screens/login/screens/signup.dart';
 import 'package:bwys/screens/product/model/product_model.dart';
 import 'package:bwys/screens/product/screens/show_product.dart';
 import 'package:bwys/screens/search/screens/search.dart';
-import 'package:bwys/screens/signin/screens/signin.dart';
-import 'package:bwys/screens/signup/screens/signup.dart';
 import 'package:bwys/screens/splash_screen/screen/splash_screen.dart';
 import 'package:bwys/shared/bloc/cart/bloc/cart_bloc.dart';
 import 'package:bwys/shared/repository/cart_repository.dart';
@@ -34,16 +34,18 @@ class RouteSetting {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case AppRoutes.root:
+        return MaterialPageRoute(builder: (_) => SplashScreen());
+      case AppRoutes.signIn:
+        return MaterialPageRoute(builder: (_) => SignInScreen());
+      case AppRoutes.signUp:
+        return MaterialPageRoute(builder: (_) => SignUpScreen());
+      case AppRoutes.appScreen:
         return MaterialPageRoute(
           builder: (_) => BlocProvider<CartBloc>.value(
             value: _cartBloc!,
             child: AppScreen(),
           ),
         );
-      case AppRoutes.signIn:
-        return MaterialPageRoute(builder: (_) => SignInScreen());
-      case AppRoutes.signUp:
-        return MaterialPageRoute(builder: (_) => SignUpScreen());
       case AppRoutes.productDetail:
         return MaterialPageRoute(
           builder: (_) => BlocProvider<CartBloc>.value(

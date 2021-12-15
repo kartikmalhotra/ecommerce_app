@@ -1,10 +1,10 @@
 import 'dart:async';
 
+import 'package:bwys/config/application.dart';
+import 'package:bwys/utils/services/log_service.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
-import 'package:bwys/config/application.dart';
 import 'package:bwys/constants/app_constants.dart';
-import 'package:bwys/utils/services/log_service.dart';
 
 class SecureStorageService {
   static SecureStorageService? _instance;
@@ -57,8 +57,8 @@ class SecureStorageService {
   }
 
   // Future<Map<String, String>> _getAllDataFromSecureStorage() async {
-  //   Map<String, String> allValues = await _preferences.readAll();
-  //   Application.logService.log(
+  //   Map<String, String> allValues = await _preferences!.readAll();
+  //   Application.logService!.log(
   //     '(TRACE) SecureStorageService:_getAllDataFromSecureStorage. values: $allValues',
   //     type: Log.PRIVATE,
   //   );

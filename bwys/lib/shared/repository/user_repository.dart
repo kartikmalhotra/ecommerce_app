@@ -82,9 +82,6 @@ abstract class UserRepository {
 
   /// Mark specific notifications as read
   Future<dynamic> markNotificationsAsRead(int? notificationId);
-
-  /// Get User color settings
-  Future<dynamic> getUserColorSettings();
 }
 
 class UserRepositoryImpl implements UserRepository {
@@ -297,10 +294,7 @@ class UserRepositoryImpl implements UserRepository {
     BWYSUser.userId = null;
     BWYSUser.userType = null;
     BWYSUser.uid = null;
-    BWYSUser.firstName = null;
-    BWYSUser.lastName = null;
-    BWYSUser.isLDAPUser = false;
-    // BWYSUser.userUpstreamColumns = null;
+    BWYSUser.userName = null;
 
     userProfileModelData = null;
     userModelData = null;
@@ -554,9 +548,7 @@ class UserRepositoryImpl implements UserRepository {
   }
 
   void initializeUserProfileData(Map<String, dynamic> response) {
-    BWYSUser.firstName = response['first_name'];
-    BWYSUser.lastName = response['last_name'];
-    BWYSUser.isLDAPUser = response['is_ldap_user'] ?? false;
+    BWYSUser.userName = response['user_name'];
   }
 
   void resetTimezoneData() {

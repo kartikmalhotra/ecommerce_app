@@ -85,9 +85,8 @@ class LocalStorageService {
   dynamic _getDataFromDisk(String key) {
     var value = _preferences!.get(key);
     Application.logService!.log(
-      '(TRACE) LocalStorageService:_getFromDisk. key: $key value: $value',
-      type: Log.PRIVATE,
-    );
+        '(TRACE) LocalStorageService:_getFromDisk. key: $key value: $value',
+        type: Log.PRIVATE);
     return value;
   }
 

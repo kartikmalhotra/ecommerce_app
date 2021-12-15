@@ -1,5 +1,4 @@
 import 'package:bwys/screens/product/model/product_model.dart';
-import 'package:flutter/material.dart';
 
 List items = [
   {
@@ -261,6 +260,24 @@ List<Product> demoProducts = [
     rating: 4.1,
     isFavourite: true,
   )
+];
+
+List<Map<String, dynamic>> userNamePassword = [
+  {
+    "user_name": "Kartik",
+    "email": "kartik.malhotra177@gmail.com",
+    "password": "12345678",
+  },
+  {
+    "user_name": "Ravi",
+    "email": "test.user1@gmail.com",
+    "password": "12345678",
+  },
+  {
+    "user_name": "Pankaj",
+    "email": "test.user@gmail.com",
+    "password": "12345678",
+  }
 ];
 
 const String description = "Wireless Controller for PS4™ gives you what you ";

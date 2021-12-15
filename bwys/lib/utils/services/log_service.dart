@@ -18,7 +18,7 @@ class LogService {
 
   /// Instance of [CrashlyticsService]
   /// TODO: Crashlytics
-  /// static CrashlyticsService _crashlyticsServiceInstance;
+  // static CrashlyticsService _crashlyticsServiceInstance;
 
   LogService._internal();
 

@@ -1,21 +1,3 @@
-///
-///                       NimbleThis, Inc. Proprietary
-///
-/// This source code is the sole property of  NimbleThis, Inc.. Any form of utilization of this source code in whole or in part is  prohibited without written consent from
-///  NimbleThis, Inc.
-///
-///  File Name	              : application.dart
-///  Principal Author         : NimbleThis
-///  Module Name              : Config
-///  Date of First Release	  :
-///  Author				            : NimbleThis
-///  Description              : This file contains the application global variables.
-///  Change History Version   : 6.0.0
-///  Date(DD/MM/YYYY) 	      : 18-02-20
-///  Modified by			        : NimbleThis
-///  Description of change    : N/A
-///
-
 import 'dart:async';
 import 'dart:io' show Platform;
 
@@ -48,7 +30,6 @@ class Application {
   static CommonService? commonService;
   // static FirebaseAnalytics? firebaseAnalytics;
 
-  /// TODO: Crashlytics
   // static CrashlyticsService crashlyticsService;
   static LogService? logService;
   static WebSocketServiceBloc? webSocketServiceBloc;
@@ -84,31 +65,13 @@ class BWYSUser {
   static int? userType;
   static String? uid;
   static late bool isUserLoggedIn;
-  static String? firstName;
-  static String? lastName;
-  static bool? isLDAPUser;
+  static String? userName;
+  static String? email;
   static late bool isLicenseAccepted;
 }
 
 class BWYS {
-  static Map<String, bool> modules = {
-    'bi-dashboard': false,
-    'cmts-overview': false,
-    'install-new-cm': false,
-    'modem-details': false,
-    'map': false,
-    'my-account': false,
-    'us-analyzer': false,
-    'us-monitor': false,
-    'work-orders': false,
-    'gamification': false,
-    'cli-leakage': false,
-    'geocode': false,
-    'rxmer': false,
-    'spectra': false,
-    'sync-mobile-app': false,
-    'ml': false,
-  };
+  static Map<String, bool> modules = {};
 }
 
 class BWYSConstants {
