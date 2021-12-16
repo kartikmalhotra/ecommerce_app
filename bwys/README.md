@@ -1,12 +1,33 @@
-# bwys
 
-A new Flutter project.
+# BWYS
+
+BWYS is an Ecommerce App made using Flutter the basic idea behind creating this app is to create an app where users can post videos with the product and users can buy that product if they are interested
+
+## Screenshots 
+
+<table>
+  <tr>
+     <td>Shop Screen</td>
+     <td>Home Screen</td>
+     <td>Product View</td>
+  </tr>
+  <tr>
+    <td><img src="Screenshot_1638866657.png" width="270" height="480" title="Ecommerce app" alt="Ecommerce app"/></td>
+    <td><img src="Screenshot_1638895462.png" width="270" height="480" title="Ecommerce app" alt="Ecommerce app"/></td>
+    <td><img src="Screenshot_1638866666.png" width="270" height="480" title="Show video" alt="Ecommerce app"/> </td>
+  </tr>
+  <tr>
+     <td>Product Detail</td>
+     <td>Shopping Cart</td>
+  </tr>
+  <tr>
+    <td><img src="Screenshot_1638866675.png" width="270" height="480" title="Ecommerce app" alt="Ecommerce app"/></td>
+    <td><img src="Screenshot_1638866710.png" width="270" height="480" title="Ecommerce app" alt="Ecommerce app"/></td>
+  </tr>
+ </table>
+
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
